@@ -1,0 +1,14 @@
+# style
+pre-commit
+black~=22.1
+flake8~=4.0
+isort~=5.10
+
+# static type checking
+mypy==0.931
+
+# testing
+coverage[toml]
+pytest
+pytest-mock
+tox
